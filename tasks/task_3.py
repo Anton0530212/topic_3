@@ -3,7 +3,7 @@
 # и вычисляет площадь круга по фомуле S = pi * r^2
 radius: float = float(input('Введите радиус круга: '))
 
-pi = 3.14159
-area = pi * radius ** 2
+pi: float = 3.14159
+area: float = pi * radius ** 2
 
 print('Площадь круга равна', area)

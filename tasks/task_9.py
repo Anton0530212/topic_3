@@ -5,3 +5,5 @@ number: int = int(input('Введите число: '))
 square_root = number ** 0.5
 
 print('Квадратный корень числа', number, 'равен', square_root)
+
+# 1. У всех переменных должны быть аннотации типа
