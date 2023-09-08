@@ -1,6 +1,9 @@
-hourly_rate = int(input('Введите почасовую ставку: '))
+# Программа, которая запрашивает у пользователя
+# почасовую ставку, затем выводит его количество
+# отработанных часов и заработную плату
+hourly_rate: int = int(input('Введите почасовую ставку: '))
 
-working_hours = int(input('Вы проработали: '))
+working_hours: int = int(input('Вы проработали: '))
 
 salary = hourly_rate * working_hours
 
